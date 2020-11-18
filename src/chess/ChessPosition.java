@@ -23,7 +23,7 @@ public class ChessPosition {
 		return row;
 	}
 
-	protected Position toPosition() {
+	protected Position toPosition() { // converts chess position to matrix position
 		return new Position(8 - row, column - 'a');
 	}
 
