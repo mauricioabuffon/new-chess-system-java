@@ -57,7 +57,7 @@ public class Board {
 		pieces[position.getRow()][position.getColumn()] = null;
 		return aux;
 	}
-
+// Verify if exist on the matrix, the position received 
 	private boolean positionExists(int row, int column) {
 		return row >= 0 && row < rows && column >= 0 && column < columns;
 	}
